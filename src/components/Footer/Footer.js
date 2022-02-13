@@ -1,9 +1,9 @@
-import '../App.css';
+import './Footer.css';
 
-function Footer(props) {
+function Footer() {
     return (
 
-        <div className="soial-media">
+        <div className="social-media">
         
         <a className="App-footer"  href="https://facebook.com">facebook</a>
         <a  className="App-footer" href="https://twitter.com/">twetter</a>
