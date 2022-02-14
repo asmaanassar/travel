@@ -1,10 +1,14 @@
-import '../App.css';
+import '../../App.css';
+import { Link } from 'react-router-dom';
 
-function Header(props) {
+function Header() {
     return (
 
         <>
-            <h1 className="App-header" >Hello  {props.fName}   {props.lName} </h1>
+            <nav>
+                <Link to='/'> Home </Link>
+            </nav>
+            
         </>
 
     );
