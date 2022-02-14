@@ -1,20 +1,16 @@
 
-
+import Tour from './Tour/Tour';
 function Tours(props) {
 
     return (
-        <>
-            {props.data.map(item => {
+       
+            props.data.map((item,id) => {
                 return (
-                    <div>
-                        <img src={item.image} alt={item.name} />
-                        <h3>Name : {item.name}</h3>
-                        <p>Price : {item.price}</p>
-                        <p>Info:{item.info}</p>
-                    </div>
+                  <Tour tour={item} index={id}/>
+        
                 );
-            })}
-        </>
+            })
+       
     );
 }
 

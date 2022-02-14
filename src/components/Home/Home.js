@@ -1,4 +1,4 @@
-import '../App.css';
+import '../../App.css';
 //import logo from '../logo.svg';
 // import './App.css';
 import Header  from '../Header/Header'; 
@@ -16,7 +16,8 @@ function Home() {
      <Tours data={data}/>
 
      {/* add a new components Footer   */}
-     <Footer/> 
+     <Footer/>
+      
     </>
   );
 }
