@@ -1,11 +1,11 @@
-import '../../App.css';
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 function Header() {
     return (
 
         <>
-            <nav>
+            <nav className="App-header">
                 <Link to='/'> Home </Link>
             </nav>
             
